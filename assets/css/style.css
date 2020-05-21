@@ -1,6 +1,9 @@
+*, *:before, *:after {
+  box-sizing: inherit;
+}  
   /*//////////////////  NAVIGATION  //////////////////*/
 
-  img {
+.logo {
     padding: 0px 5px 0px 0px;
     margin-left: 10px;
     width: 65px;
@@ -15,6 +18,17 @@ h4 {
     padding-left: 20px;
 
 }
+
+
+.parallax-container {
+  height: "your height here";
+}
+
+.parallax{
+  position:static;
+}
+
+    
 
   body {
     font-family: 'Montserrat', sans-serif;
