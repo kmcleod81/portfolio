@@ -19,7 +19,6 @@ h4 {
 
 }
 
-
 .parallax-container {
   height: 400px;
 }
@@ -28,6 +27,11 @@ h4 {
   position:static;
 }
 
+/* FORM */
+
+#form {
+  margin-top: 50px;
+}
     
 
   body {
@@ -50,4 +54,25 @@ h4 {
     bottom:0;
     left:0;
     width:100%;
+  }
+/*  */
+  /* .linkedin { */
+    /* padding-top: 5px; */
+    /* margin-right: 10px; */
+    /* width: 30px; */
+  /* } */
+/*  */
+  /* .github { */
+    /* padding-top: 5px; */
+    /* margin-right: 10px; */
+    /* width: 30px; */
+  /* } */
+
+  .footerImg {
+    margin-right: 10px;
+    max-width: 30px;
+  }
+
+  #copyright {
+    padding-top: 15px;
   }
