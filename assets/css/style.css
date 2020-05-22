@@ -33,6 +33,14 @@ h4 {
   margin-top: 50px;
 }
     
+h3.contact {
+font-family: 'Montserrat', sans-serif;
+margin-top: 2px;
+}
+
+.form-container {
+padding: 20px;
+}
 
   body {
     font-family: 'Montserrat', sans-serif;
