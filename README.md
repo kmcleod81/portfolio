@@ -4,7 +4,7 @@
 
 
 ![Website View](./assets/images/portfolio.png)
-![Phone View](./assets/images/iphone.gif)
+![Phone View](./assets/images/iphone.gif){:height="50%" width="50%"}
 
 
 ## Table of contents
