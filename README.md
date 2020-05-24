@@ -4,9 +4,8 @@
 
 
 ![Website View](./assets/images/portfolio.png)
-![Phone View](./assets/images/iphone.gif){:height="50%" width="50%"}
 
-<img src="./assets/images/iphone.gif" width="100" height="100">
+<img src="./assets/images/iphone.gif" width="200" height="500">
 
 
 ## Table of contents
