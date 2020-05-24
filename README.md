@@ -6,6 +6,8 @@
 ![Website View](./assets/images/portfolio.png)
 ![Phone View](./assets/images/iphone.gif){:height="50%" width="50%"}
 
+![test image size](./assets/images/iphone.gif){:height="25%" width="25%"}
+
 
 ## Table of contents
 * [General info](#general-info)
