@@ -1,6 +1,6 @@
 # Portfolio
 
-[![Codefresh build status]( https://g.codefresh.io/api/badges/pipeline/kmcleod/default%2Fportfolio?type=cf-1)]( https%3A%2F%2Fg.codefresh.io%2Fpublic%2Faccounts%2Fkmcleod%2Fpipelines%2Fnew%2F5eca7156135057c5ae12622d)
+[![Codefresh build status]( https://g.codefresh.io/api/badges/pipeline/kmcleod/default%2Fportfolio?type=cf-1)]( https://g.codefresh.io/pipelines/edit/new/builds?id=5eca7156135057c5ae12622d&pipeline=portfolio&projects=default&projectId=5eca70a713505755f012622c&filter=page:1;pageSize:10;timeFrameStart:week)
 
 
 ![Website View](./assets/images/portfolio.png)
