@@ -4,7 +4,7 @@
 
 
 ![Website View](./assets/images/portfolio.png)
-![Phone View](./assets/images/iphone.png)
+![Phone View](./assets/images/iphone.gif)
 
 
 ## Table of contents
