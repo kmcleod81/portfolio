@@ -5,7 +5,7 @@
 
 ![Website View](./assets/images/portfolio.png)
 
-<img src="./assets/images/iphone.gif" width="200" height="500">
+<img src="./assets/images/iphone.gif" width="200" height="400">
 
 
 ## Table of contents
