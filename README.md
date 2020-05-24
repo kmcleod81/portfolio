@@ -6,7 +6,7 @@
 ![Website View](./assets/images/portfolio.png)
 ![Phone View](./assets/images/iphone.gif){:height="50%" width="50%"}
 
-![test image size](./assets/images/iphone.gif){:height="25%" width="25%"}
+<img src="./assets/images/iphone.gif" width="100" height="100">
 
 
 ## Table of contents
