@@ -2,9 +2,10 @@
 
 [![Codefresh build status]( https://g.codefresh.io/api/badges/pipeline/kmcleod/default%2Fportfolio?type=cf-1)]( https://g.codefresh.io/pipelines/edit/new/builds?id=5eca7156135057c5ae12622d&pipeline=portfolio&projects=default&projectId=5eca70a713505755f012622c&filter=page:1;pageSize:10;timeFrameStart:week)
 
+## Website Responsive View
+<img src="./assets/images/portfolio.png" width="80%" height="80%">
 
-<img src="./assets/images/portfolio.png" width="60%" height="60%">
-
+## iPhone Responsive View
 <img src="./assets/images/iphone.gif" width="30%" height="30%">
 
 
