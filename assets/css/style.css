@@ -1,6 +1,7 @@
 *, *:before, *:after {
   box-sizing: inherit;
 }  
+
 /* ////////////////////////////// NAV //////////////////////////////*/
 
 .logo {
@@ -18,8 +19,34 @@ h4 {
     padding-left: 20px;
 }
 
-.parallax-container {
-  height: 300px;
+  @media (max-width: 200px) {
+    .parallax-container {
+      height: 120px;
+    }
+}
+
+@media (max-width: 500px) {
+  .parallax-container {
+    height: 180px;
+  }
+}
+
+@media (max-width: 700px) {
+  .parallax-container {
+    height: 200px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .parallax-container {
+    height: 220px;
+  }
+}
+
+@media (max-width: 3000px) {
+  .parallax-container {
+    height: 250px;
+  }
 }
 
 .parallax{
@@ -44,7 +71,7 @@ main {
 }
 
 .portfolioBtns {
-  margin-bottom: 5px;;
+  margin-bottom: 5px;
 }
 
 h5 {
@@ -71,11 +98,17 @@ padding: 20px;
 /* ////////////////////////////// FOOTER //////////////////////////////*/
   
   footer {
-    position: relative;
-    overflow: hidden;
+    /* position: relative; */
+    /* overflow: hidden; */
+    /* bottom:0; */
+    /* left:0; */
+    /* width:100%; */
+
+    position:fixed;
     bottom:0;
     left:0;
     width:100%;
+    z-index:1 !important;
   }
 
   .footerImg {
@@ -85,4 +118,5 @@ padding: 20px;
 
   #copyright {
     padding-top: 15px;
+    padding-left: 15px;
   }
