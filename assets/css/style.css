@@ -37,7 +37,21 @@ main {
   flex: 1 0 auto;
 }
 
+/* ////////////////////////////// PORTFOLIO //////////////////////////////*/
 
+.front {
+  margin-right: 10px;
+}
+
+.portfolioBtns {
+  margin-bottom: 5px;;
+}
+
+h5 {
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
 /* ////////////////////////////// FORM //////////////////////////////*/
 
 #form {
