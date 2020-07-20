@@ -24,9 +24,9 @@ top: 0;
   margin-top: 40px;
 }
 
-div .card-action (
+div .card-action {
   z-index:-1  !important;
-)
+}
 
 /* ////////////////////////////// BODY //////////////////////////////*/
 
@@ -139,7 +139,7 @@ padding: 20px;
     bottom:0;
     left:0;
     width:100%;
-    z-index:-1 !important;
+    z-index:1 !important;
   }
 
   .footerImg {
