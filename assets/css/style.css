@@ -9,24 +9,24 @@
     margin-left: 10px;
     width: 65px;
   }
-
-.carousel .indicators {
-top: 0;
-}
-
-.carousel-item img {
-  width: auto;
-  margin: auto; 
- display: block;
-}
-
-.designNames {
-  margin-top: 40px;
-}
-
-div .card-action {
-  z-index:-1  !important;
-}
+/*  */
+/* .carousel .indicators { */
+/* top: 0; */
+/* } */
+/*  */
+/* .carousel-item img { */
+  /* width: auto; */
+  /* margin: auto;  */
+ /* display: block; */
+/* } */
+/*  */
+/* .designNames { */
+  /* margin-top: 40px; */
+/* } */
+/*  */
+/* div .card-action { */
+  /* z-index:-1  !important; */
+/* } */
 
 /* ////////////////////////////// BODY //////////////////////////////*/
 
@@ -39,10 +39,6 @@ h4 {
 @media (max-width: 100px) {
   .parallax-container {
     height: 100px;
-  }
-
-  .carousel-item img {
-    width: 50%;
   }
 }
 
