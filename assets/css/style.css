@@ -10,7 +10,13 @@
     width: 65px;
   }
 
+.carousel .indicators {
+top: 0;
+}
 
+.designNames {
+  margin-top: 40px;
+}
 /* ////////////////////////////// BODY //////////////////////////////*/
 
 h4 {
@@ -67,6 +73,9 @@ main {
 /* ////////////////////////////// PORTFOLIO //////////////////////////////*/
 
 .front {
+  margin-right: 10px;
+}
+.back {
   margin-right: 10px;
 }
 

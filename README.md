@@ -25,7 +25,7 @@ Project is created with:
 * Javascript
     
 
-## Author
+## Authors
 
 * **Karla McLeod** - [Kmcleod81](https://github.com/Kmcleod81)
 
