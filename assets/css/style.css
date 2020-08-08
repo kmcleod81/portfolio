@@ -106,6 +106,17 @@ h5 {
   margin-bottom: 20px;
   margin-left: 10px;
 }
+
+.row .container {
+  z-index:0 !important;
+
+}
+
+.designNames {
+  margin-left: 22px;
+}
+
+
 /* ////////////////////////////// FORM //////////////////////////////*/
 
 #form {
@@ -131,11 +142,11 @@ padding: 20px;
     /* left:0; */
     /* width:100%; */
 
-    position:fixed;
+    position:relative;
     bottom:0;
     left:0;
     width:100%;
-    z-index:1 !important;
+    /* z-index:1 !important; */
   }
 
   .footerImg {
