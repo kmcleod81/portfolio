@@ -18,13 +18,56 @@ body {
     font-size: 1.2vw;
 }
 
+      /* Media Query for Mobile Devices */
+      @media (max-width: 480px) {
+        body {
+            background-color: red;
+        }
+    }
 
+    /* Media Query for low resolution  Tablets, Ipads */
+    @media (min-width: 481px) and (max-width: 767px) {
+        body {
+            background-color: yellow;
+        }
+    }
 
+    /* Media Query for Tablets Ipads portrait mode */
+    @media (min-width: 768px) and (max-width: 1024px) {
+        body {
+            background-color: blue;
+        }
+    }
+
+    /* Media Query for Laptops and Desktops */
+    @media (min-width: 1025px) and (max-width: 1280px) {
+        body {
+            background-color: green;
+        }
+    }
+
+    /* Media Query for Large screens */
+    @media (min-width: 1281px) {
+        body {
+            background-color: white;
+        }
+    }
+
+    .img-height {
+        height:600px;
+    }
 .ccl-bg {
     background-image: url('/projects/ccl/assets/homebackground6-1.jpg');
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 50vh;
+    color:white;
+}
+.ccl-van-bg {
+    background-image: url('/projects/ccl/assets/AdobeStock_385307703_Preview.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
     color:white;
 }
 .login-btn {
@@ -32,5 +75,44 @@ body {
     color:white;
 }
 .ccl-green {
-    color: #a6d63f;;
+    color: #a6d63f;
 }
+.box {
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+
+    align-content:center;
+  }
+.circle{
+    height: 225px;
+    width: 225px;
+    background-color: #a6d63f;
+    border-radius: 50%;
+    display: inline-block;
+    margin:10px;
+  }
+
+a:link {
+    color: #a6d63f;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: #ffffff;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #acfa04;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: #a6d63f;
+    background-color: transparent;
+    text-decoration: underline;
+  }
