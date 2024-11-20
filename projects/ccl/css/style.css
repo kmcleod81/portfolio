@@ -116,8 +116,9 @@ body {
     display: flex;
     flex-wrap:wrap;
     flex-direction: column;
-
-    align-content:center;
+  }
+  .icon-words {
+    margin-top:0px;
   }
 .circle{
     height: 225px;
