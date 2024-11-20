@@ -121,8 +121,8 @@ body {
     margin-top:0px;
   }
 .circle{
-    height: 225px;
-    width: 225px;
+    height: 200px;
+    width: 200px;
     background-color: #a6d63f;
     border-radius: 50%;
     display: inline-block;
