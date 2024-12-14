@@ -1,154 +1,283 @@
-
 /* A font family name and a generic family name */
 body {
-    font-family: futura-pt, sans-serif;
-    font-style: normal;
-    background-color: white;
+  font-family: futura-pt, sans-serif;
+  font-style: normal;
+  background-color: white;
 }
 
 .content {
+  display: flex;
+  align-items: center;
+}
+
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+  .text-section {
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+  .display-1 {
+    margin-top: 60px;
+    font-size: 6.4vw;
+  }
+  .display-2 {
+    font-size: 2.8vw;
+  }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+  .text-section {
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+  .display-1 {
+    margin-top: 60px;
+    font-size: 6.4vw;
+  }
+  .display-2 {
+    font-size: 2.8vw;
+  }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .text-section {
+    margin-left: 50px;
+  }
+  .display-1 {
+    margin-top: 60px;
+    font-size: 3.8vw;
+  }
+  .display-2 {
+    font-size: 1.6vw;
+  }
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .text-section {
+    margin-left: 30px;
+  }
+  .display-1 {
+    margin-top: 60px;
+    font-size: 3.5vw;
+  }
+  .display-2 {
+    font-size: 1.2vw;
+  }
+}
+
+/* Media Query for Large screens */
+@media (min-width: 1281px) {
+  .text-section {
+    margin-left: 20px;
+  }
+  .display-1 {
+    margin-top: 60px;
+    font-size: 3.5vw;
+  }
+  .display-2 {
+    font-size: 1.2vw;
+  }
+}
+
+.img-height {
+  height: 600px;
+}
+.ccl-bg {
+  background-image: url('/projects/ccl/assets/homebackground6-1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+    width: 100%;
+    height: 400px; /* Adjust as needed */
     display: flex;
     align-items: center;
-}
-.container-fluid {
-    /* padding-right: calc(var(--bs-gutter-x)* .0); */
-    /* padding-left: calc(var(--bs-gutter-x)* .0); */
-
- }
-
-      /* Media Query for Mobile Devices */
-      @media (max-width: 480px) {
-        .text-section {
-            margin-left:60px;
-            margin-right:60px;
-        }
-        .display-1 {
-            margin-top:60px;
-            font-size: 6.4vw;
-        }
-        .display-2 {
-            font-size: 2.8vw;
-        }
-    }
-
-    /* Media Query for low resolution  Tablets, Ipads */
-    @media (min-width: 481px) and (max-width: 767px) {
-        .text-section {
-            margin-left:60px;
-            margin-right:60px;
-        }
-        .display-1 {
-            margin-top:60px;
-            font-size: 6.4vw;
-        }
-        .display-2 {
-            font-size: 2.8vw;
-        }
-    }
-
-    /* Media Query for Tablets Ipads portrait mode */
-    @media (min-width: 768px) and (max-width: 1024px) {
-        .text-section {
-            margin-left:50px;
-        }
-        .display-1 {
-            margin-top:60px;
-            font-size: 3.8vw;
-        }
-        .display-2 {
-            font-size: 1.6vw;
-        }
-    }
-
-    /* Media Query for Laptops and Desktops */
-    @media (min-width: 1025px) and (max-width: 1280px) {
-        .text-section {
-            margin-left:30px;
-        }
-        .display-1 {
-            margin-top:60px;
-            font-size: 3.5vw;
-        }
-        .display-2 {
-            font-size: 1.2vw;
-        }
-    }
-
-    /* Media Query for Large screens */
-    @media (min-width: 1281px) {
-        .text-section {
-            margin-left:20px;
-        }
-        .display-1 {
-            margin-top:60px;
-            font-size: 3.5vw;
-        }
-        .display-2 {
-            font-size: 1.2vw;
-        }
-    }
-
-    .img-height {
-        height:600px;
-    }
-.ccl-bg {
-    background-image: url('/projects/ccl/assets/homebackground6-1.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 50vh;
-    color:white;
+    justify-content: center;
+    position: relative;
 }
 .ccl-van-bg {
-    background-image: url('/projects/ccl/assets/AdobeStock_385307703_Preview.jpeg');
-    background-size: cover;
-    background-position: center;
-    height: 50vh;
-    color:white;
+  background-image: url('/projects/ccl/assets/AdobeStock_385307703_Preview.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  color: white;
 }
 .login-btn {
-    background-color: #a6d63f;
-    color:white;
+  background-color: #a6d63f;
+  color: white;
 }
 .ccl-green {
-    color: #a6d63f;
+  color: #a6d63f;
 }
 .box {
-    display: flex;
-    flex-wrap:wrap;
-    flex-direction: column;
-  }
-  .icon-words {
-    margin-top:0px;
-  }
-.circle{
-    height: 200px;
-    width: 200px;
-    background-color: #a6d63f;
-    border-radius: 50%;
-    display: inline-block;
-    margin:10px;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.icon-words {
+  margin-top: 0px;
+}
+.circle {
+  height: 200px;
+  width: 200px;
+  background-color: #a6d63f;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 10px;
+}
 
 a:link {
-    color: #a6d63f;
-    background-color: transparent;
-    text-decoration: none;
+  color: #a6d63f;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #ffffff;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #acfa04;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #a6d63f;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+.text-overlay {
+    position: absolute;
+    left: 0; /* Align the text on the left */
+    max-width: 50%; /* col-6 */
+    padding: 20px;
+    text-align: right; /* Right-align the text inside the box */
+    color: white;
+    font-size: 1.2rem;
+
   }
-  
-  a:visited {
-    color: #ffffff;
-    background-color: transparent;
-    text-decoration: none;
+  @media (max-width: 768px) {
+    .text-overlay {
+      max-width: 90%; /* Center on mobile */
+      width:100%;
+      left: 50%;
+      transform: translateX(-50%); /* Center horizontally on mobile */
+      text-align: center; /* Center-align the text for mobile */
+    }
   }
-  
-  a:hover {
-    color: #acfa04;
-    background-color: transparent;
-    text-decoration: underline;
+
+
+
+
+
+
+/* color wheel  */
+#display-si {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: relative; /* Parent container for overlapping */
+  height: 400px; /* Define height for overlap */
+}
+
+.color-wheel {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.col-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.col-12 {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+.circle-container {
+  position: relative;
+  width: 250px;
+  height: 250px;
+}
+.large-circle {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  position: relative;
+  background: url('/assets/images/SI-Wheel.gif') no-repeat;
+}
+.small-circle {
+  width: 54px;
+  height: 54px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  position: absolute;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+}
+.small-circle:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+.small-circle:nth-child(1) {
+  top: 13%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+}
+.small-circle:nth-child(2) {
+  top: 17%;
+  right: 14%;
+}
+.small-circle:nth-child(3) {
+  top: 57%;
+  right: 8%;
+  transform: translateY(-50%);
+}
+.small-circle:nth-child(4) {
+  bottom: 11%;
+  right: 27%;
+}
+.small-circle:nth-child(5) {
+  bottom: 21%;
+  left: 33%;
+  transform: translate(-50%, 50%);
+}
+.small-circle:nth-child(6) {
+  bottom: 35%;
+  left: 4%;
+}
+.small-circle:nth-child(7) {
+  top: 27%;
+  left: 11%;
+  transform: translateY(-50%);
+}
+.image-display img {
+  max-width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+@media (max-width: 768px) {
+  .col-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
   }
-  
-  a:active {
-    color: #a6d63f;
-    background-color: transparent;
-    text-decoration: underline;
-  }
+}
