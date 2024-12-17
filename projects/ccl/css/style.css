@@ -215,7 +215,6 @@ a:active {
   top: 13%;
   left: 49%;
   transform: translate(-50%, -50%);
-  /* background: url('/projects/ccl/assets/k-circle.gif') no-repeat; */
 }
 .small-circle:nth-child(2) {
   top: 17%;
