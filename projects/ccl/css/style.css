@@ -197,7 +197,7 @@ a:active {
   height: 280px;
   border-radius: 50%;
   position: relative;
-  background: url('/assets/images/SI-Wheel.gif') no-repeat;
+  background: url('/projects/ccl/assets/SI-Wheel.gif') no-repeat;
 }
 .small-circle {
   width: 54px;
@@ -215,6 +215,7 @@ a:active {
   top: 13%;
   left: 49%;
   transform: translate(-50%, -50%);
+  /* background: url('/projects/ccl/assets/k-circle.gif') no-repeat; */
 }
 .small-circle:nth-child(2) {
   top: 17%;
