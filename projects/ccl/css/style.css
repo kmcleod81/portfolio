@@ -300,7 +300,7 @@ a:active {
   position: relative;
   -webkit-transition: all 0.35s;
   transition: all 0.35s;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 .hovereffect:hover img {
   filter: brightness(0.6);
